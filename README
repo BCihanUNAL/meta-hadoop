@@ -21,5 +21,6 @@ Run 'bitbake-layers add-layer meta-hadoop'
 II. Misc
 ========
 
-meta-hadoop must be built using ipk packaging, dnf fails at do_rootfs stage 
+meta-hadoop must be built using ipk packaging, dnf fails at do_rootfs stage. 
+This layer only works with machines that use aarch64 architecture. (Controls for architecture will be added.)
 
